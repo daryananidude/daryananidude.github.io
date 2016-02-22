@@ -55,7 +55,7 @@ h5 a:hover {
 =========================================================*/
 #header {
   padding: 20px 0;
-  background: #d94d3a;
+  background: #2B60DE;
 }
 #header h1 {
   float: left;
@@ -117,7 +117,7 @@ h5 a:hover {
   content: "";
   height: 4px;
   width: 100%;
-  background: #dbb3ae;
+  background: #2B60DE;
   position: absolute;
   bottom: -30px;
   left: 0;
@@ -132,7 +132,7 @@ h5 a:hover {
   content: "";
   height: 4px;
   width: 100%;
-  background: #dbb3ae;
+  background: #2B60DE;
   position: absolute;
   bottom: -30px;
   left: 0;
@@ -148,7 +148,7 @@ h5 a:hover {
   position: absolute;
   top: 66px;
   left: -30px;
-  background: #d94d3a;
+  background: #2B60DE;
   color: #ffffff;
   min-width: 157px;
   z-index: 999;
@@ -169,7 +169,7 @@ h5 a:hover {
   height: 0;
   border-left: 7px solid transparent;
   border-right: 7px solid transparent;
-  border-bottom: 10px solid #d94d3a;
+  border-bottom: 10px solid #2B60DE;
 }
 .sf-menu ul li {
   position: relative;
@@ -198,13 +198,13 @@ h5 a:hover {
   z-index: 4;
   min-width: 157px;
   border: none;
-  background: #dbb3ae;
+  background: #2B60DE;
 }
 .sf-menu ul ul:before {
   display: none;
 }
 .sf-menu ul ul a:hover {
-  color: #d94d3a;
+  color: #2B60DE;
 }
 @media only screen and (max-width: 767px) {
   .sf-menu {
@@ -213,7 +213,7 @@ h5 a:hover {
   .select-menu {
     display: block;
     width: 100%;
-    border-color: #d94d3a;
+    border-color: #2B60DE;
     color: #666;
     font-size: 16px;
     padding: 5px;
@@ -222,10 +222,10 @@ h5 a:hover {
 /* Stuck menu styles
 ========================================================*/
 .isStuck {
-  background: #d94d3a;
+  background: #2B60DE;
   z-index: 9;
   padding: 0;
-  border-bottom: 1px solid #d94d3a;
+  border-bottom: 1px solid #2B60DE;
 }
 .isStuck nav {
   margin-top: 17px !important;
@@ -294,7 +294,7 @@ h5 {
   color: #000000;
 }
 .h5__mod {
-  color: #d94d3a;
+  color: #2B60DE;
 }
 p {
   font: 14px/24px 'Open Sans', sans-serif;
@@ -701,7 +701,7 @@ p {
 										FOOTER styles
 =========================================================*/
 #footer {
-  background: #d94d3a;
+  background: #2B60DE;
   padding: 100px 0 0;
   color: #000000;
 }
@@ -763,7 +763,7 @@ p {
 ========================================================*/
 #toTop {
   display: none;
-  background: #d94d3a;
+  background: #2B60DE;
   text-decoration: none;
   position: fixed;
   bottom: 80px;
