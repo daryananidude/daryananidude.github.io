@@ -26,6 +26,29 @@
 			}
 		});
 	</script>
+
+	<script>
+window.twttr = (function (d,s,id) {
+
+    var t, js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return; js=d.createElement(s); js.id=id;
+    js.src="https://platform.twitter.com/widgets.js";
+    fjs.parentNode.insertBefore(js, fjs);
+
+    return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
+
+}(document, "script", "twitter-wjs"));
+
+twttr.ready(function (twttr) {
+
+    twttr.widgets.load();
+    setInterval(function() {
+        twttr.widgets.load();
+        console.log("update twitter timeline each second");
+    }, 1000);
+
+});
+</script>
 	<!--<![endif]-->
 	<!--[if lt IE 8]>
 	<div style=' clear: both; text-align:center; position: relative;'>
@@ -50,17 +73,7 @@
 					<nav>
 						<ul class="sf-menu">
 							<li class="current"><a href="index.html">Home</a>
-								<ul>
-									<li><a href="#">Lorem ipsum</a></li>
-									<li><a href="#">Lorem ipsum</a>
-										<ul>
-											<li><a href="#">Lorem ipsum</a></li>
-											<li><a href="#">Lorem ipsum</a></li>
-											<li><a href="#">Lorem ipsum</a></li>
-										</ul>
-									</li>
-									<li><a href="#">Lorem ipsum</a></li>
-								</ul>
+								
 							</li>
 							<li><a href="index-1.html">About</a></li>
 							<li><a href="index-2.html">Phones</a></li>
@@ -82,7 +95,7 @@
 			<div id="camera_wrap">
 				<div class="item" data-src="images/index_img_slider-1.jpg">
 					<div class="camera_caption fadeIn">
-						<h3><font color="red">We make sure you buy the right phone</font></h3>
+						<h3><font color="black">We make sure you buy the right phone</font></h3>
 						<p>Contact Us by</p>
 						<a href="#" class="btn bd-ra"><span class="fa fa-envelope-o"></span></a>
 						<a href="#" class="btn bd-ra"><span class="fa fa-phone"></span></a>
@@ -205,29 +218,28 @@
 				</div>
 				<div class="grid_4">
 					<article>
-						<h3><a href="#">December 2012</a></h3>
-						<p>We prepared for the end of the world but the world did not end. we thought the world was going end so we gave a away everything for free now we have nothing.</p>
-						<a href="#" class="btn">More</a>
+						<a class="twitter-timeline" href="https://twitter.com/StuffTV" data-widget-id="707741153408499712">Tweets by @StuffTV</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 					</article>
 				</div>
 				<div class="grid_4">
 					<article>
-						<h3><a href="#">March 2015</a></h3>
-						<p>I bet on some ponys and now we are so rich i am a billionare again and my company is up and running also vote for Kanye 2020.</p>
-						<a href="#" class="btn">More</a>
+						<a class="twitter-timeline" href="https://twitter.com/t3dotcom" data-widget-id="707741984941854720">Tweets by @t3dotcom</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 					</article>
 				</div>
 				<div class="grid_4">
 					<article>
-						<h3><a href="#">Febuary 2016</a></h3>
-						<p>Kanye West asks Mark Zuckenburg to bet 1 billion dollars on Kanye's ideas. The popstar is also 54 million dollar in debt and has not yet asked his rich succesful wife Kim Kardasian for any money. </p>
-						<a href="#" class="btn">More</a>
+						<a class="twitter-timeline" href="https://twitter.com/WIRED" data-widget-id="707748212187201536">Tweets by @WIRED</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 					</article>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
+
+
 
 <!--=======footer=================================-->
 <footer id="footer">
