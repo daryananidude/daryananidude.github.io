@@ -1,0 +1,206 @@
+body {
+
+    background-image: url("https://media.giphy.com/media/un3NNBF4LSJZ6/giphy.gif");
+    background-size: cover;
+    background-position: center center;
+    font-family: monospace;
+
+}
+
+/*Stuff below governs the start screen*/
+
+.titleContent {
+    margin: 10% auto;
+    text-align: center;
+}
+
+.splashTitle {
+    color: #fff;
+    font-size: 8em;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 5px rgba(27, 25, 25, 0.74);
+}
+
+.button {
+    border: 5px solid #383838;
+    color: #fff;
+    padding: 20px 50px;
+    font-size: 5em;
+    text-decoration: none;
+    background-color: #383838;
+    box-shadow: 15px 15px 80px #555;
+    margin-left: 38.5%;
+    margin-right: 38.5%;
+}
+  a.button:hover {
+    background-color: #383838;
+    color: #30cb00;
+  }
+
+
+
+/*Stuff below governs the Explore screen*/
+
+#introduction {
+    background-image: url("https://media.giphy.com/media/un3NNBF4LSJZ6/giphy.gif");
+    background-position: bottom center;
+    color: #fff;
+}
+
+.text {
+    font-size: 24px;
+    border-width: 10px;
+    border-style: solid;
+}
+
+#button {
+    margin-top:50px;
+    position: static;
+}
+
+#characterselect {
+    text-align: center;
+}
+
+.character {
+    float: left;
+}
+
+.characterbutton{
+    border: 5px solid #383838;
+    color: #fff;
+    padding: 10px 25px;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #383838;
+    box-shadow: 15px 15px 80px #555;
+    position: absolute;
+    margin-left: 9.5%;
+}
+
+
+#follower{
+  position : relative;
+  background-image: url("img/PETERA.png");
+  width:541px;
+  height:427px;
+  border-radius:50px;
+ 
+}
+
+.centerdiv {
+    width:720px;
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+}
+.container {
+    width:100%;
+    height:100%;   
+    position:fixed;
+    top:0;
+    left:0;
+    overflow:hidden;
+    margin-top: 23%;
+}
+
+#slime {
+width: 275px; 
+height: 350px;
+background-image: url("img/slime1.gif");
+position:fixed;
+}
+
+div.b {
+width: 275px; 
+height: 350px;
+background-image: url("img/slime1.gif");
+position:fixed;
+    
+}
+div.c {
+width: 275px; 
+height: 350px;
+background-image: url("img/slime1.gif");
+position:fixed;
+    
+}
+div.d {
+width: 275px; 
+height: 350px;
+background-image: url("img/slime1.gif");
+position:fixed;
+    
+}
+
+div.e {
+width: 275px; 
+height: 350px;
+background-image: url("img/slime1.gif");
+position:fixed;
+    
+}
+
+div.f {
+width: 275px; 
+height: 350px;
+background-image: url("img/slime1.gif");
+position:fixed;
+    
+}
+
+#scoreboard {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            padding: 0.25em 0.5em 0.25em 0.5em;
+            font-size: 30pt;
+            font-weight: bold;
+            border: 3px solid black;
+            background-color: rgba(72, 197, 0, 0.26);
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+#goodslime {
+    width: 64px; 
+height: 115px;
+background-image: url("http://stardewvalleywiki.com/mediawiki/images/a/a0/Slime_Ball_Anim.gif");
+position:fixed;
+}
+
+#goodslimetwo {
+    width: 64px; 
+height: 115px;
+background-image: url("http://stardewvalleywiki.com/mediawiki/images/a/a0/Slime_Ball_Anim.gif");
+position:fixed;
+}
+
+#goodslimethree {
+    width: 64px; 
+height: 115px;
+background-image: url("http://stardewvalleywiki.com/mediawiki/images/a/a0/Slime_Ball_Anim.gif");
+position:fixed;
+}
+
+.endbutton{
+    border: 5px solid #383838;
+    color: #fff;
+    padding: 10px 25px;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #383838;
+    box-shadow: 15px 15px 80px #555;
+    position: relative;
+    margin-right: 70%;
+    width: 300px;
+    height: 25px;
+    position: fixed;
+    top: 40%%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+
+}
