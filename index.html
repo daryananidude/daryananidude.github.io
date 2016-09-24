@@ -1,302 +1,223 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
 	<head>
-	<title>Home</title>
-	<meta charset="utf-8">
-	<meta name = "format-detection" content = "telephone=no" />
-	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
-	<link rel="stylesheet" href="css/grid.css">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/camera.css">
-	<link rel="stylesheet" href="css/owl.carousel.css">
-
-	<script src="js/jquery.js"></script>
-	<script src="js/jquery-migrate-1.2.1.js"></script>
-	<script src='js/camera.js'></script>
-	<script src="js/owl.carousel.js"></script>
-	<script src="js/jquery.stellar.js"></script>
-	<script src="js/script.js"></script>
-	<!--[if (gt IE 9)|!(IE)]><!-->
-	<script src="js/jquery.mobile.customized.min.js"></script>
-	<script src="js/wow.js"></script>
-	<script>
-		$(document).ready(function () {
-			if ($('html').hasClass('desktop')) {
-				new WOW().init();
-			}
-		});
-	</script>
-
-	<script>
-window.twttr = (function (d,s,id) {
-
-    var t, js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return; js=d.createElement(s); js.id=id;
-    js.src="https://platform.twitter.com/widgets.js";
-    fjs.parentNode.insertBefore(js, fjs);
-
-    return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
-
-}(document, "script", "twitter-wjs"));
-
-twttr.ready(function (twttr) {
-
-    twttr.widgets.load();
-    setInterval(function() {
-        twttr.widgets.load();
-        console.log("update twitter timeline each second");
-    }, 1000);
-
-});
-</script>
-	<!--<![endif]-->
-	<!--[if lt IE 8]>
-	<div style=' clear: both; text-align:center; position: relative;'>
-	 <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
-		 <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
-	 </a>
-	</div>
-	<![endif]-->
-	<!--[if lt IE 9]>
-		<script src="js/html5shiv.js"></script>
-		<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
-	<![endif]-->
+		<title>Shiv's Website</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
-<body class="index">
-<!--==============================header=================================-->
-<header id="header">
-	<div id="stuck_container">
-		<div class="container">
-			<div class="row">
-				<div class="grid_12">
-					<h1><a href="index.html">Phone Tone</a><span>your smart phone provider</span></h1>
-					<nav>
-						<ul class="sf-menu">
-							<li class="current"><a href="index.html">Home</a>
-								
-							</li>
-							<li><a href="index-1.html">About</a></li>
-							<li><a href="index-2.html">Phones</a></li>
-							<li><a href="index-3.html">Services</a></li>
-							<li><a href="index-4.html">Contacts</a></li>
+	<body>
+
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
+							<h1 id="title">Shiv Daryanani</h1>
+							<p>Beast Coder</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<!--
+
+								Prologue's nav expects links in one of two formats:
+
+								1. Hash link (scrolls to a different section within the page)
+
+								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
+
+								2. Standard link (sends the user to another page/site)
+
+								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
+
+							-->
+							<ul>
+								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Projects</span></a></li>
+								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
+								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
 						</ul>
-					</nav>
-				</div>
-			</div>
-		</div>
-	</div>
-</header>
 
-<!--=======content================================-->
+				</div>
 
-<section id="content">
-	<div class="full-width-container block-1">
-		<div class="camera_container">
-			<div id="camera_wrap">
-				<div class="item" data-src="images/index_img_slider-1.jpg">
-					<div class="camera_caption fadeIn">
-						<h3><font color="black">We make sure you buy the right phone</font></h3>
-						<p>Contact Us by</p>
-						<a href="#" class="btn bd-ra"><span class="fa fa-envelope-o"></span></a>
-						<a href="#" class="btn bd-ra"><span class="fa fa-phone"></span></a>
-						<a href="#" class="btn bd-ra"><span class="fa fa-map-marker"></span></a>
-					</div>
-				</div>
-				<div class="item" data-src="images/index_img_slider-2.jpg">
-					<div class="camera_caption fadeIn">
-						<h3>Never have a bad phone again</h3>
-						<p>Contact Us by</p>
-						<a href="#" class="btn bd-ra"><span class="fa fa-envelope-o"></span></a>
-						<a href="#" class="btn bd-ra"><span class="fa fa-phone"></span></a>
-						<a href="#" class="btn bd-ra"><span class="fa fa-map-marker"></span></a>
-					</div>
-				</div>
 			</div>
-		</div>
-	</div>
-	<div class="full-width-container block-2">
-		<div class="container">
-			<div class="row">
-				<div class="grid_12">
-					<header>
-						<h2><span>Welcome to Our Agency</span></h2>
-					</header>
-					<h4><a href="#">Our Goal</a></h4>
-					<p>We are a Hong Kong based company that aims to make sure that know one has a bad phone.We want to make sure that when ever someone buys a smart phone they are buying the best.</p>
-					<a href="#" class="btn">more</a>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="full-width-container block-3 parallax-block" data-stellar-background-ratio="0.5">
-		<div class="container">
-			<div class="row">
-				<div class="grid_12">
-					<header>
-						<h2><span>Sponsers</span></h2>
-					</header>
-				</div>
-				<div class="grid_4">
-					<div class="element"><h3><img src="https://www.fineprintnyc.com/images/blog/history-of-logos/google/google-logo.png" width="470" height="246"><a href="#"></a></h3></div>
-				</div>
-				<div class="grid_4">
-					<div class="element"><h3><a href="#"></a></h3></div>
-				</div>
-				<div class="grid_4">
-					<div class="element"><h3><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/768px-Apple_logo_black.svg.png" width="270" height="270"><a href="#"></a></h3></div>
-				</div>
-				<div class="grid_4">
-					<div class="element"><h3><a href="#"></a></h3></div>
-				</div>
-				<div class="grid_4">
-					<div class="element"><h3><a href="#"></a></h3></div>
-				</div>
-				<div class="grid_4">
-					<div class="element"><h3><a href="#"></a></h3></div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="full-width-container block-4">
-		<div class="container">
-			<div class="row">
-				<div class="grid_12">
-					<header>
-						<h2><span>Resources</span></h2>
-					</header>
-				</div>
-			</div>
-			<div class="row">
-				<div id="owl-carousel" class="owl-carousel">
-					<div class="grid_4">
-						<div class="">
-							<div class="img_container"><img src="images/index_img-1.jpg" alt="img"></div>
-							<div class="owl-text">Stuff</div>
-						</div>
-					</div>
-					<div class="grid_4">
-						<div class="">
-							<div class="img_container"><img src="images/index_img-2.jpg" alt="img"></div>
-							<div class="owl-text">T3</div>
-						</div>
-					</div>
-					<div class="grid_4">
-						<div class="">
-							<div class="img_container"><img src="images/index_img-3.jpg" alt="img"></div>
-							<div class="owl-text">WIRED</div>
-						</div>
-					</div>
-					<div class="grid_4">
-						<div class="">
-							<div class="img_container"><img src="images/index_img-2.jpg" alt=""></div>
-							<div class="owl-text">T3</div>
-						</div>
-					</div>
-					<div class="grid_4">
-						<div class="">
-							<div class="img_container"><img src="images/index_img-3.jpg" alt=""></div>
-							<div class="owl-text">WIRED</div>
-						</div>
-					</div>
-					<div class="grid_4">
-						<div class="">
-							<div class="img_container"><img src="images/index_img-1.jpg" alt=""></div>
-							<div class="owl-text">STUFF</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="full-width-container block-5">
-		<div class="container">
-			<div class="row">
-				<div class="grid_12">
-					<header>
-						<h2><span>News</span></h2>
-					</header>
-				</div>
-				<div class="grid_4">
-					<article>
-						<a class="twitter-timeline" href="https://twitter.com/StuffTV" data-widget-id="707741153408499712">Tweets by @StuffTV</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-					</article>
-				</div>
-				<div class="grid_4">
-					<article>
-						<a class="twitter-timeline" href="https://twitter.com/t3dotcom" data-widget-id="707741984941854720">Tweets by @t3dotcom</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-					</article>
-				</div>
-				<div class="grid_4">
-					<article>
-						<a class="twitter-timeline" href="https://twitter.com/WIRED" data-widget-id="707748212187201536">Tweets by @WIRED</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-					</article>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
 
+		<!-- Main -->
+			<div id="main">
 
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
 
-<!--=======footer=================================-->
-<footer id="footer">
-	<div class="container">
-		<div class="row">
-			<div class="grid_12 copyright">
-				<h2><span>Follow Us</span></h2>
-				<a href="#" class="btn bd-ra"><span class="fa fa-facebook"></span></a>
-				<a href="#" class="btn bd-ra"><span class="fa fa-tumblr"></span></a>
-				<a href="#" class="btn bd-ra"><span class="fa fa-google-plus"></span></a>
-				<pre>© <span id="copyright-year"></span> |  Privacy Policy</pre>
-				 <a rel="nofollow" href="" target="_blank"></a>
+							<header>
+								<h2 class="alt">Hi! I'm Shiv this is my webiste 
+								where you can see my projects.</h2>
+								<p>I make many thing like games and webistes<br />
+								I hope you enjoy looking at my work.</p>
+							</header>
+
+							<footer>
+								<a href="#portfolio" class="button scrolly">My Projects</a>
+							</footer>
+
+						</div>
+					</section>
+
+				<!-- Portfolio -->
+					<section id="portfolio" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Project Portfolio</h2>
+							</header>
+
+							<p>Below you will see my work that I have made over the years
+							using different coding languages like html, css and javascript.
+							More project will come soon enjoy.</p>
+
+							<div class="row">
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<a href="website/index" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+										<header>
+											<h3>PhoneTone Phone recommendation website</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+										<header>
+											<h3>Rhoncus Semper</h3>
+										</header>
+									</article>
+								</div>
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<a href="game/index.html" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
+										<header>
+											<h3>Slime Killers</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
+										<header>
+											<h3>Natoque Vitae</h3>
+										</header>
+									</article>
+								</div>
+								<div class="4u$ 12u$(mobile)">
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
+										<header>
+											<h3>Doodle Jump</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
+										<header>
+											<h3>Orci Convallis</h3>
+										</header>
+									</article>
+								</div>
+							</div>
+
+						</div>
+					</section>
+
+				<!-- About Me -->
+					<section id="about" class="three">
+						<div class="container">
+
+							<header>
+								<h2>About Me</h2>
+							</header>
+
+							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+
+							<p>Tincidunt eu elit diam magnis pretium accumsan etiam id urna. Ridiculus
+							ultricies curae quis et rhoncus velit. Lobortis elementum aliquet nec vitae
+							laoreet eget cubilia quam non etiam odio tincidunt montes. Elementum sem
+							parturient nulla quam placerat viverra mauris non cum elit tempus ullamcorper
+							dolor. Libero rutrum ut lacinia donec curae mus vel quisque sociis nec
+							ornare iaculis.</p>
+
+						</div>
+					</section>
+
+				<!-- Contact -->
+					<section id="contact" class="four">
+						<div class="container">
+
+							<header>
+								<h2>Contact</h2>
+							</header>
+
+							<p>Elementum sem parturient nulla quam placerat viverra
+							mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia
+							donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc
+							orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
+
+							<form method="post" action="#">
+								<div class="row">
+									<div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" /></div>
+									<div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" /></div>
+									<div class="12u$">
+										<textarea name="message" placeholder="Message"></textarea>
+									</div>
+									<div class="12u$">
+										<input type="submit" value="Send Message" />
+									</div>
+								</div>
+							</form>
+
+						</div>
+					</section>
+
 			</div>
-		</div>
-	</div>
-	<div class="footer_bottom"><a href="" rel="nofollow"><img src="" alt=""></a></div>
-</footer>
-<script>
-	jQuery(function(){
-		jQuery('#camera_wrap').camera({
-			height: '34.58333333333333%',
-			thumbnails: false,
-			pagination: true,
-			fx: 'simpleFade',
-			loader: 'none',
-			hover: false,
-			navigation: false,
-			playPause: false,
-			minHeight: "139px",
-		});
-	});
-</script>
-<script>
-	$(document).ready(function() {
-		$(".owl-carousel").owlCarousel({
-			navigation: true,
-			pagination: false,
-			items : 3,
-			itemsDesktop : [1199,3],
-			itemsDesktopSmall : [979,3],
-			itemsTablet: [750,1],
-			itemsMobile : [479,1],
-			navigationText: false
-		});
-	});
-</script>
-<script>
-	$(document).ready(function() { 
-			if ($('html').hasClass('desktop')) {
-				$.stellar({
-					horizontalScrolling: false,
-					verticalOffset: 20,
-					resposive: true,
-					hideDistantElements: true,
-				});
-			}
-		});
-</script>
-</body>
+
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">daryananidude</a></li>
+					</ul>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollzer.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
