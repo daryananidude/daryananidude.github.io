@@ -1,0 +1,163 @@
+/* Challenge:
+
+1. Fix the ball size
+2. Ensure the ball bounces off the edge of the left paddle
+3. Make the AI a bit better, but still beatable.
+
+Extra Points: 
+1a. Enlarge ONLY the Player Paddle
+1b. Ensure that collision is detected on the ENTIRE Player Paddle
+
+Have Fun! */
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+	background-color:orange;
+}
+
+
+#twoheader{
+	color: white;
+	border-style: solid;
+	border-width: 1px;
+	width:50%;
+	font-size: 50px;
+	position:absolute;
+	left:300px;
+
+}
+
+
+
+#main {
+font-size: 100px;
+color: white;
+border-style: solid;
+border-width: 10px;
+width:80%;
+font-family:Lato;
+
+}
+
+#factbox{
+	width: 200px;
+	height:100px;
+	background-color: white;
+	margin-top: 150px;
+	position:absolute;
+	left:100px;
+}
+
+
+#maintwo {
+	color: white;
+	font-size: 40px;
+	border-style: solid;
+	border-width: 10px;
+	width:55%;
+	font-family:Lato;
+	}
+
+#start {
+width:400px;
+height:100px;	
+color:white;
+font-size: 40px;
+border-radius: 20px;
+position: absolute;
+top:500px;
+right:10px;
+position:center;
+background-color:blue; 
+font-family:Lato;
+vertical-align: middle;
+line-height:100px;
+}
+
+#factbox{
+	height: 800px;
+	width:600px;
+	background-color: lightgreen;
+	border-width:5px;
+	border-style:solid;
+	border-color:black;
+	left: 280px;
+	text-align: center;
+	font-family:Lato;
+
+}
+
+.button {
+	left:320px;
+	background-color:blue; 
+	width:400px;
+	height:200px;	
+	color:white;
+	font-size: 30px;
+	border-radius: 20px;
+	font-family:Lato;
+
+}
+
+.move{
+	left:370px;
+
+
+}
+
+#diet{
+width:400px;
+height:100px;	
+color:white;
+font-size: 40px;
+border-radius: 20px;
+position: absolute;
+top:290px;
+right:10px;
+position:center;
+background-color:blue; 
+font-family:Lato;
+}
+
+#facts{
+width:400px;
+height:100px;	
+color:white;
+font-size: 40px;
+border-radius: 20px;
+position: absolute;
+top:110px;
+right:10px;
+position:center;
+background-color:blue; 
+font-family:Lato;
+vertical-align: middle;
+line-height:100px;
+}
+
+#workout{
+width:400px;
+height:100px;	
+color:white;
+font-size: 40px;
+border-radius: 20px;
+position: absolute;
+top:290px;
+right:10px;
+position:center;
+background-color:blue; 
+font-family:Lato;
+vertical-align: middle;
+line-height:100px;
+}
+
+#BMI{
+	position: absolute;
+	margin-top:200px;
+	margin-left:28%;
+	border-width:5px;
+	border-style:solid;
+	padding:50px;
+	background-color: lightgreen;
+	font-family:Lato;
+}
