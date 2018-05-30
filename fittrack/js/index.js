@@ -14,7 +14,7 @@ function youare() {
 function tips(){
    var output = Math.round(BMI * 100) / 100;
   if (output < 18.5){
-      tip.innertext = "Eat more food to maintain a healthy weight." 
+      tip.innertext = "Eat more food to maintain a healthy weight."
 }   else if (output >= 18.5 && output <= 25){
       tip.innerText = "Great job maintain this weight and stay healthy"
 }   else if (output >= 25 && output <= 30){
@@ -43,3 +43,16 @@ const tip = document.getElementById("tip");
 var BMI = undefined;
 
 
+function calcWeight() {
+  var calories = Number(document.getElementById("calories").value);
+  var gym = Number(document.getElementById("gym").value);
+  var pound = document.getElementById("pound").value;
+  var weight = Number(document.getElementById("weight").value);
+  var goal = Number(document.getElementById("goal").value);
+  if (pound == "lb") weight /= 2.20462;
+  var weightDif = weight-goal
+  var kgamount = weightDif*7700
+  var weightLoss = kgamount/calories
+  var weeks = weightLoss/gym
+  weeksone.innerText = weeks;
+}
